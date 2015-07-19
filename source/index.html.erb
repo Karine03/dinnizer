@@ -2,9 +2,66 @@
 title: Le Wagon Middleman boilerplate
 ---
 
-<div class="welcome text-center padded">
-  <h1>Middleman is Watching</h1>
-  <p class="doc">
-    <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
-  </p><!-- .doc -->
-</div><!-- .welcome -->
+<div id="banner">
+  <div class="fadeInHome">
+    <h1>DINN'IZER</h1>
+    <span class="subhead-big">
+      Become the perfect host and make everyone happy, everytime!
+    </span>
+    <br>
+    <div>
+    <%=link_to"Find some recipes", "https://aumenuilya.wordpress.com/", class: "btn btn-primary btn-banner btn-lg", target: "blank" %>
+    </div>
+  </div>
+  <div class="arrow-container fadeInArrow">
+    <a href="#services">
+      <i class="fa fa-angle-down scroll-btn"></i>
+    </a>
+  </div>
+</div>
+
+<div id="services" class="padded">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-sm-6 col-md-4">
+       <%= image_tag "book.svg", alt: "organize", class: "img-small"%>
+       <h3 class="sh-padded">Organize</h3>
+       <p>
+         Remember every dinner <br>and plan in advance
+       </p>
+       <br>
+      </div>
+
+
+
+      <div class="col-sm-6 col-md-4">
+        <%= image_tag "pola.svg", alt: "recipes", class: "img-small"%>
+        <h3 class="sh-padded">Recipes</h3>
+        <p>
+          Note your recipes <br>and keep pictures of your dish
+        </p>
+        <br>
+      </div>
+
+
+      <div class="col-sm-6 col-md-4">
+        <%= image_tag "heart.svg", alt: "care", class: "img-small"%>
+        <h3 class="sh-padded">Care</h3>
+        <p>
+          Always keep track <br>of your guest's allergies, favorites...
+        </p>
+        <br>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div id="newsletter" class ="bg-grey text-center sm-padded">
+  <h2>Keep in touch!</h2>
+  <form action="" class="form-inline">
+    <input type="email" class="form-control" placeholder="robuchon@gmail.com" id="your email">
+    <input type="submit" class="btn btn-primary" value="Subscribe">
+  </form>
+
+</div>

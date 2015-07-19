@@ -5,13 +5,15 @@
 
 // General style
 $font-family-sans-serif:  $base-font;
-$body-bg:                 lighten(#000, 93.5%);
+// $body-bg:                 lighten(#000, 93.5%);
 $font-size-base:          $base-size;
+$font-size-h1:            5.5em;
+$font-size-h2:            2em;
 $line-height-base:        $base-height;
 $headings-font-family:    $header-font;
 
 // Semantic color scheme
-$brand-primary:   $blue;
+$brand-primary:   $red;
 $brand-success:   $green;
 $brand-info:      $yellow;
 $brand-danger:    $red;

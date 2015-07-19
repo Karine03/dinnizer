@@ -7,6 +7,25 @@
   padding-top: 8em;
   padding-bottom: 8em;
 }
+
+.sm-padded {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+.xs-padded {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.sh-padded {
+  padding-top: 1em;
+}
+
+.bg-grey {
+  background: $light-grey;
+}
+
 .bg-red {
   background: $red;
   color: white;
@@ -30,4 +49,86 @@
 .bg-purple {
   background: $purple;
   color: white;
+}
+
+.img-small {
+  width: 100px;
+}
+
+
+.fadeInHome {
+  animation: fadeInHome 0.5s 0.3s ease forwards;
+  -moz-animation: fadeInHome 0.5s 0.3s ease forwards;
+  -webkit-animation: fadeInHome 0.5s 0.3s ease forwards;
+
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
+@keyframes fadeInHome {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeInHome {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeInHome {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.fadeInArrow{
+  animation: fadeInArrow 0.5s 0.5s ease forwards;
+  -moz-animation: fadeInArrow 0.5s 0.5s ease forwards;
+  -webkit-animation: fadeInArrow 0.5s 0.5s ease forwards;
+
+  opacity: 0;
+}
+
+@keyframes fadeInArrow {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeInArrow {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeInArrow {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
