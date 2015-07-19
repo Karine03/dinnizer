@@ -9513,6 +9513,10 @@ button.close {
   font-size: 14px;
   font-weight: 300; }
 
+/* line 36, /Users/karinebialobroda/code/Karine03/dinnizer/source/stylesheets/components/_button.css.scss */
+.btn-full-width {
+  width: 100%; }
+
 /* line 1, /Users/karinebialobroda/code/Karine03/dinnizer/source/stylesheets/pages/_home.css.scss */
 #banner {
   position: relative;
@@ -9521,10 +9525,9 @@ button.close {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-bottom: 350px;
   padding-top: 50px;
-  padding-left: 50px;
-  color: white; }
+  color: white;
+  min-height: 600px; }
   /* line 15, /Users/karinebialobroda/code/Karine03/dinnizer/source/stylesheets/pages/_home.css.scss */
   #banner h1 {
     font-weight: 100; }
