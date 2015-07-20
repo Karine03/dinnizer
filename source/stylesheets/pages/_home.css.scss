@@ -6,6 +6,9 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  min-height: 100%;
   padding-bottom: 450px;
   padding-top: 50px;
   // padding-left: 50px;
