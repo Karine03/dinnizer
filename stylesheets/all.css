@@ -9520,32 +9520,35 @@ button.close {
 /* line 1, /Users/karinebialobroda/code/Karine03/dinnizer/source/stylesheets/pages/_home.css.scss */
 #banner {
   position: relative;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url("../images/food.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url("../images/food.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  min-height: 100%;
+  padding-bottom: 450px;
   padding-top: 50px;
-  color: white;
-  min-height: 600px; }
-  /* line 15, /Users/karinebialobroda/code/Karine03/dinnizer/source/stylesheets/pages/_home.css.scss */
+  color: white; }
+  /* line 17, /Users/karinebialobroda/code/Karine03/dinnizer/source/stylesheets/pages/_home.css.scss */
   #banner h1 {
     font-weight: 100; }
 
-/* line 20, /Users/karinebialobroda/code/Karine03/dinnizer/source/stylesheets/pages/_home.css.scss */
+/* line 22, /Users/karinebialobroda/code/Karine03/dinnizer/source/stylesheets/pages/_home.css.scss */
 .subhead-big {
   font-size: 1.2em;
   font-weight: 300;
   font-family: "Lato", "sans-serif"; }
 
-/* line 27, /Users/karinebialobroda/code/Karine03/dinnizer/source/stylesheets/pages/_home.css.scss */
+/* line 29, /Users/karinebialobroda/code/Karine03/dinnizer/source/stylesheets/pages/_home.css.scss */
 #services h3 {
   text-transform: uppercase;
   color: #C75C5C;
   font-size: 1.3em;
   font-weight: 400; }
 
-/* line 36, /Users/karinebialobroda/code/Karine03/dinnizer/source/stylesheets/pages/_home.css.scss */
+/* line 38, /Users/karinebialobroda/code/Karine03/dinnizer/source/stylesheets/pages/_home.css.scss */
 #newsletter h2 {
   font-weight: 300;
   margin-bottom: 1em; }
