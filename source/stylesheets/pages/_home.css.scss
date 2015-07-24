@@ -1,13 +1,12 @@
 #banner {
   position: relative;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), image-url('food.jpg')no-repeat center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), image-url('food.jpg')no-repeat fixed;
   // background: image-url('food.jpg')no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-position: center top;
-  background-attachment: fixed;
+  background-position: center center;
   min-height: 100%;
   padding-bottom: 450px;
   padding-top: 50px;
@@ -16,6 +15,12 @@
   // height: 100%;
   h1 {
     font-weight: 100;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  #banner {
+    background: image-url('food.jpg') no-repeat center center scroll;
   }
 }
 
